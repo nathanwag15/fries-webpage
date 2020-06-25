@@ -1,0 +1,81 @@
+/* Footer Section */
+.footer-wrapper{
+    Background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.footer-wrapper > .logo img{
+    width: 180px;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.footer-wrapper > .contact-wrapper span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer-wrapper > .contact-wrapper > .phone{
+    padding-top: 10px;
+    color: #cbcbcb;
+    width: 155px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-wrapper > .contact-wrapper > .hours{
+    font-size: .8em;
+    color: #cea135;
+}
+.footer-wrapper > .links-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper > .links-wrapper > .nav-link a{
+    text-decoration: none;
+    color: #cbcbcb;
+    transition: .5s;
+}
+
+.footer-wrapper > .links-wrapper > .nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 1px;
+}
+
+.footer-wrapper > .social-media{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-wrapper > .social-media > .logo a{
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 1.5s;
+}
+
+.footer-wrapper > .social-media > .logo a:hover{
+    color:#cea135;
+}
+
+.footer-wrapper > .copyright{
+    color: #858585;
+    font-size: .7em;
+    margin-bottom: 42px;
+
+}
